@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.header h1 {
+    font-size: 36px; /* 大きめのテキストサイズ */
+    margin: 0;
+}
+
+.header h2 {
+    font-size: 24px; /* 大きめのテキストサイズ */
+    margin: 0;
+}
+
+button {
+    padding: 50px 50px;
+    font-size: 24px;
+    background-color: #b7a2ee;
+    color: #e2daf8;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+    border-radius: 10px; /* 角を丸くする */
+    transition: background-color 0.3s; /* 色の変化にアニメーションを追加 */
+}
+
+button:focus {
+    outline: none;
+}
+
+button:active {
+    background-color: #1e0955; /* クリック時の色 */
+}
+
+#result {
+    font-size: 24px;
+}
+
+footer {
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #b7a2ee;
+    padding: 12px 0;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px; /* フォントサイズを調整 */
+    color: #555; /* テキストの色を調整 */
+}
